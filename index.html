@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table id="ta_student" border="1px">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)">Name</th>
+                <th onclick="sortTable(1)">Age</th>
+            </tr>
+        </thead>
+        <tbody id="student_data">
+        </tbody>
+    </table>
+    <br>
+    <input type="text" placeholder="chuỗi kí tự" id="textSearch">
+    <button id="btn_search_string" type="submit">Search</button>
+    <br>
+    <br>
+    <input type="number" placeholder="số" id="numberSearch">
+    <button id="btn_search_number" type="submit">Search</button>
+    <br>
+    <br>
+    <button id="btn_search_reset" type="submit">reset</button>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="jquery.js"></script>
+</html>
